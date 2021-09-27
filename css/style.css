@@ -39,6 +39,15 @@
     text-decoration: unset;
 }
 
+.home-container {
+  width: 100%
+}
+
+.home-container .row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
 @media (min-width: 576px) {
 
 }
