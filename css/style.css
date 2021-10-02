@@ -136,6 +136,10 @@ hr.resume-title-divider {
   background-size: auto;
 }
 
+.resume-container {
+  padding-top: 0px!important;
+}
+
 h1.about-title{
   margin-top: 20px;
   margin-bottom: 20px;
