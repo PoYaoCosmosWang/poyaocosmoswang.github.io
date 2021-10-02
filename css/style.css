@@ -131,9 +131,9 @@ hr.resume-title-divider {
 
 .about-main-img{
   padding-bottom: 50%;
-  background-position: left;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
+  background-size: auto;
 }
 
 h1.about-title{
