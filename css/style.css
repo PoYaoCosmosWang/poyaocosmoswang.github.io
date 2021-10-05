@@ -303,18 +303,29 @@ ul.project-info-list li{
   padding-top: 5px;
 }
 
-.home-project-title{
+a.home-project-title{
   text-decoration: unset;
   color: black;
-  transition: 0.5s;
+}
+
+a .home-project-title{
+  transition: 0.3s;
 }
 
 .project-container {
   padding-top: 20px;
 }
 
-.home-project-title:hover{
-  color: rgb(110, 110, 110);
+a .home-project-title:hover{
+  color: rgb(196, 196, 196);
+}
+
+.about-main-img.project-img{
+  transition: 0.5s;
+}
+
+.about-main-img.project-img:hover{
+  opacity: 0.5;
 }
 
 @media (min-width: 576px) {
