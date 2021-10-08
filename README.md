@@ -1,2 +1,2 @@
 # poyaocosmoswang.github.io
-my website
+Po-Yao (Cosmos) Wang's personal website
