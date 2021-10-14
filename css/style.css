@@ -328,6 +328,15 @@ a .home-project-title:hover{
   opacity: 0.5;
 }
 
+.resume-paper-link{
+  text-decoration: none;
+  color: black
+}
+
+.resume-paper-link:hover{
+  color: rgb(173, 173, 173);
+}
+
 @media (min-width: 576px) {
 
 }
@@ -336,7 +345,7 @@ a .home-project-title:hover{
 @media (min-width: 768px) {
 
   .about-main-img{
-    padding-bottom: 28%;
+    padding-bottom: 27%;
   }
 
   .about-ruminating-img{
