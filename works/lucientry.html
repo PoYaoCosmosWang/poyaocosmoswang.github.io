@@ -36,20 +36,46 @@
 
     <div class="container project-container">
         <h1 class="project-title">
-            LuciEntry: A Modular Lab-based Lucid Dreaming Induction Prototype
+            LuciEntry: A Lucid Dreaming Induction System
         </h1>
         <ul class="project-info-list">
             <li>
                 <span class="bold">Publication:</span>
-                <a target="_blank" href="https://doi.org/10.1145/3613905.3651061"> CHI '24 Late-Breaking Work</a>, 
-                <!-- change pdf -->
-                <a target="_blank" href="../publications/Game_Illusionization_A_Workflow_for_Applying_Optical_Illusions_to_Video_Games.pdf"> PDF</a>
+
+                <ul class="LuciEntry">
+                    <li>LuciEntry</li>
+                    <ul class="publication-list">
+                        <li>
+                            <a target="_blank" href="https://doi.org/10.1145/3613905.3651061"> CHI '24 Late-Breaking Work</a>: 
+                            <a target="_blank" href="https://youtu.be/hJ442WQ-n3E"> Preview</a>,
+                            <a target="_blank" href="https://youtu.be/02lc17rlfIg"> Video</a>,
+                            <a target="_blank" href="https://youtu.be/oXDga9MV90w"> Presentation</a>,
+                            <a target="_blank" href="../publications/LuciEntry_CHI_24_LBW.pdf"> PDF</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://doi.org/10.1145/3613905.3649123"> CHI '24 Video Showcase</a>: 
+                            <a target="_blank" href="https://youtu.be/02lc17rlfIg"> Video</a>,
+                            <a target="_blank" href="../publications/LuciEntry_CHI_24_Video_Showcase.pdf"> PDF</a>
+                        </li>
+                    </ul>
+                </ul>
+                <ul class="LuciEntry-Home">
+                    <li>LuciEntry Home</li>
+                    <ul class="publication-list">
+                        <li>
+                            <a target="_blank" href="https://doi.org/10.1145/3613905.3649123"> CHI '24 Video Showcase</a>: 
+                            <a target="_blank" href="https://youtu.be/SkZ4GcND4Go"> Video</a>,
+                            <a target="_blank" href="../publications/LuciEntry_Home_CHI_24_Video_Showcase.pdf"> PDF</a>
+                        </li>
+                    </ul>
+                </ul>
+                
             </li>
             <li>
                 <span class="bold">Authors:</span><span> Po-Yao (Cosmos) Wang*, Nathaniel Lee Yung Xiang*, Rohit Rajesh, Antony Smith Loose, Nathan Semertzidis, Florian ‘Floyd’ Mueller</span>
             </li>
             <li>
-                <span class="bold">Time:</span><span> Mar. 2023 - Jan. 2024</span>
+                <span class="bold">Time:</span><span> Mar. 2023 - Now</span>
             </li>
             <li>
                 <span class="bold">Category:</span><span> Research</span>
@@ -61,162 +87,48 @@
                 allowfullscreen></iframe>
         </div>
         <!-- change the content below -->
-        <h1 class="project-section-title">Inspiration</h1>
         
         <p class="project-content-text">
-            <span>While</span><a target="_blank" href="https://www.monumentvalleygame.com/mv2"> Monument Valley</a><span> and</span><a target="_blank"
-                href="https://store.steampowered.com/app/1049410/_Superliminal/"> Superliminal</a>
             <span>
-                have shown that it is interesting to use optical
-                illusions in the video games, little is known about how to make the next games with illusions.
-                Therefore, we propose a workflow and provide an illusion database and 6 specific illusion
-                editors to help game designers without illusion expertise to build the illusion games.
+                Lucid dreaming is a unique state of consciousness where one is aware of dreaming whilst asleep, 
+                which enables people to control their dream content. 
+                Lucid dreaming offers various mental and physical health benefits, such as entertainment, inspiration, and alleviating nightmares. 
+                However, lucid dreaming rarely occurs naturally, and lucid dream induction techniques take effort and time to practice. 
+            </span>
+            <br/>
+            <br/>
+            <span>
+                We designed LuciEntry, a close-loop lucid dream induction system. 
             </span>
         </p>
+        <div class="project-image" style="background-image:url(../img/LuciEntry/LuciEntry_main.png); padding-bottom:19%">
+        </div>
+        <p class="project-content-text">
+            Our mobile app guides users through the preparation before sleep, priming them to a lucid state. 
+        </p>
+        <div class="project-image" style="background-image:url(../img/LuciEntry/LuciEntry_HOME_app.png); padding-bottom:19%">
+        </div>
+        <p class="project-content-text">
+            During sleep, the system monitors brain and eye activity with the headset. 
+            When a dream state is detected, LuciEntry automatically delivers external stimuli to increase the user’s self-awareness and induce lucid dreaming.  
+        </p>
+        <div class="project-image" style="background-image:url(../img/LuciEntry/LuciEntry_HOME_devices.png); padding-bottom:19%">
+        </div>
         <div class="padding-line"></div>
-        <h1 class="project-section-title">Workflow</h1>
-        <div class="project-image" style="background-image:url(../img/illusion_workflow.png); padding-bottom:19%">
-        </div>
+        <h1 class="project-section-title">
+            Acknowledgments
+        </h1>
         <p class="project-content-text">
-            This is our workflow. It consists of 5 steps: (1) choosing an object, (2): searching for an illusion with
-            our database, (3): selecting a mechanic, (4): integrating the illusion into the game, (5): and optional
-            revealing the illusion.
+            The production of the videos could not have been possible without the expertise of Mr. Aleksandar Joseski. 
+            We thank Karen Konkoly and Nathan Whitmore for their guidance on lucid dream induction strategies. 
+            We also thank the Exertion Games Lab for the feedback and conceptual support they contributed toward the project and the paper. 
         </p>
-        <br />
-        <p class="project-content-text"><span>I will use</span><a target="_blank" href="https://www.nagi-p.com/v1/nssh.html">
-                NS-Shaft</a><span> as an example to elaborate how to use our workflow to apply an illusion.</span></p>
-        <div class="project-image" style="background-image:url(../img/NS-sahft.gif); padding-bottom:50%">
-        </div>
-        <p class="project-step-title">Step 1: Choosing an object</p>
-
-        <p class="project-content-text">
-            To apply illusions, we have to choose an object from the game.There are many objects to choose from, such as
-            the platforms, the character, the remaining life, and so on. Different objects result in different candidate
-            illusions later. Here, let’s choose the platform.
-        </p>
-        <div class="project-image" style="background-image:url(../img/choose_object.png); padding-bottom:50%">
-        </div>
-        <p class="project-step-title">Step 2: Searching for an illusion with database</p>
-        <p class="project-content-text">
-            We look for matching illusions from our illusion database based on the object. Our database contains 163
-            illusions in total.
-        </p>
-        <p class="project-content-text">
-            Here is the link of our database: <a target="_blank"
-                href="http://hci.csie.ntu.edu.tw/illusiondb">http://hci.csie.ntu.edu.tw/illusiondb</a>
-        </p>
-        <div class="project-image" style="background-image:url(../img/illusion_db.png); padding-bottom:34%"></div>
-        <p class="project-content-text">
-            Our database provides two meta-level tags: visual elements and effects. By selecting these tags, we can find
-            corresponding illusions. The visual element tags describe what the game object looks like, while the effect
-            tags describe what kind of effect the user wants to achieve.
-        </p>
-        <br />
-        <p class="project-content-text">In this example, we search related illusions from visual elements. Let’s observe
-            the standing platform. It is rectangle, and parallel to each other, so how about we choose the tags
-            rectangle and parallel.</p>
-        <br />
-        <p class="project-content-text">Our database then returns a list of related illusions. Each contains a short
-            animation and its name. We can click the illusion for more info such as a short description and related
-            tags. In this example, we pick the Zollner Illusion. The Zollner Illusion makes parallel lines seem askew.
-        </p>
-        <div class="project-image" style="background-image:url(../img/zollner_illusion.png); padding-bottom:39%"></div>
-        <p class="project-step-title">Step 3: Selecting a mechanic</p>
-        <p class="project-content-text">After picking the illusion, now we have to think about how to apply the illusion
-            to our game. We propose 2 illusion mechanics to think about, Misleading and Swapping realities.</p>
-        <br />
-        <p class="project-content-text italic">Misleading</p>
-        <br />
-        <p class="project-content-text">Misleading increases the game’s difficulty. To mislead players, we put both
-            objects with and without illusions into the game. In this example, since the Zollner illusion makes the
-            platforms seem tilted, we can put both the illusionized platforms and the real tilted platforms into the
-            game. Now players are hard to distinguish whether the platforms are indeed tilted or not.</p>
-        <div class="project-image"
-            style="background-image:url(../img/misleading.gif); padding-bottom:50%; width: 28%; margin-left: 36%; margin-right: 36%;background-size: cover;">
-        </div>
-        <br />
-        <p class="project-content-text italic">Swapping Reality</p>
-        <br />
-        <p class="project-content-text">
-            On the other hand, Swapping realities creates different gameplay. To swap realities, players
-            need to turn illusions into the reality of their games. In this example, we disable the player’s
-            movement and allow players to add stripes to the platforms to make the platform look tilted,
-            making the character slide from the platform to reach the goal. By doing this, illusion
-            becomes reality.
-        </p>
-        <div class="project-image"
-            style="background-image:url(../img/swap_reality1.gif); padding-bottom:50%; width: 28%; margin-left: 36%; margin-right: 36%;background-size: cover;">
-        </div>
-        <p class="project-content-text">Also, this can be done in a reversed way. Players remove the stripes by
-            themselves to bring the reality back.</p>
-        <div class="project-image"
-            style="background-image:url(../img/swap_reality2.gif); padding-bottom:50%; width: 28%; margin-left: 36%; margin-right: 36%;background-size: cover;">
-        </div>
-        <p class="project-content-text">These two mechanics lead to different designs of illusion games. In this
-            example, we take the misleading one.</p>
-        <p class="project-step-title">Step 4: Integrating the illusion into the game</p>
-        <p class="project-content-text">Before this step, we have a game design with illusion. Now we have to implement
-            it.</p>
-        <br />
-        <p class="project-content-text">To help game designers, we provide 6 specific illusion editors for rapid
-            prototyping.</p>
-        <br />
-        <p class="project-content-text">Our illusion editors integrate prior knowledge about illusions and help
-            developers to apply illusions to their game objects.</p>
-        <div class="project-image" style="background-image:url(../img/editors_Moment.jpg); padding-bottom:39%"></div>
-        <p class="project-content-text">
-            <span>Illusion editors: </span><a target="_blank"
-                href="https://github.com/PoYaoCosmosWang/Game-Illusionization">https://github.com/PoYaoCosmosWang/Game-Illusionization</a>
-        </p>
-        <br />
-        <p class="project-content-text">To use our illusion editors, just simply download and import our Unity Package
-            from the link above, and then assign the game object to add illusion. For more details, please refer to
-            readme in each illusion editor.</p>
-        <p class="project-step-title">Step 5: optional revealing the illusion</p>
-        <p class="project-content-text">
-            Lastly, we have suggestions for designers to reveal illusions. Revealing explicitly makes
-            players realize that there are illusions, rather than just glitches or bugs. However, some
-            designers do not reveal illusions because they want to use illusions as Easter eggs for
-            players to find out. So, we leave this step optional in our workflow.
-        </p>
-        <br />
-        <p class="project-content-text">
-            There are three ways to reveal: Adding an indicator, changing perspective, and removing the
-            interference. We have more details about these in our paper. In this example, let’s choose
-            removing the interference.
-        </p>
-        <div class="project-image"
-            style="background-image:url(../img/removing_interference.gif); padding-bottom:50%; width: 28%; margin-left: 36%; margin-right: 36%;background-size: cover;">
-        </div>
-        <p class="project-content-text">By removing the interference from the platforms, we can see if the platforms are
-            really tilted or not.</p>
-        <br />
-        <br />
-        <p class="project-content-text">After our workflow, the classic mini game has been illusionized to puzzle
-            players and increase its difficulty.</p>
-        <br />
-        <p class="project-content-text">
-            In this project, we also presented (1) other illusion game examples, (2) illusion game
-            evaluation to have a preliminary understanding of illusion games, (3) workflow evaluation to
-            understand how our workflow helps game designers, and (4) in-depth interview to know how
-            the remaining workflow, especially our illusion editors, facilitates the implementation of
-            illusion games.
-        </p>
-        <br />
-        <p class="project-content-text">
-            In conclusion, we propose a workflow to integrate optical illusions into video games.We
-            provide an illusion database and 6 illusion editors.With our work, we hope more game
-            designers without illusion expertise to join us to create more illusion games.
-        </p>
-        <br />
-        <p class="project-content-text"><span>DOI:</span> <a target="_blank"
-                href="https://doi.org/10.1145/3472749.3474824">https://doi.org/10.1145/3472749.3474824</a></p>
     </div>
 
 
     <div class="footer">
         <p class="footer-text">
-            Po-Yao (Cosmos) Wang, 2021
+            Po-Yao (Cosmos) Wang, 2024
         </p>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
